@@ -1,0 +1,27 @@
+@import "./_colors";
+@import "./fonts"; // Importa il file dei font
+
+body {
+  background-color: $backgroundScuro;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: 'DINPro', sans-serif;
+  
+}
+
+.articles-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px; // Limita la larghezza massima per 3 card per riga
+    margin: 0 auto; // Centra il contenitore
+    margin-top: 180px;
+  }
+
+
+  a{
+    text-decoration: none;
+  }
+  

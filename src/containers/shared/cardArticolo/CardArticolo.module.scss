@@ -1,0 +1,58 @@
+@import '../../../styles/colors';
+@import '../../../styles/fonts';
+
+.card {
+    width: 370px;
+    height: 370px;
+    padding: 20px 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  // Allinea gli elementi in alto e in basso
+    border-radius: 30px;
+    background-color: $backgroundCardArticoli;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    font-family: 'DINProMedium', sans-serif;
+    font-weight: 700;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    }
+}
+
+.cardContent {
+    display: flex;
+    flex-direction: column;
+    height: 100%;  // Assicura che l'altezza sia uguale a quella della card
+    justify-content: space-between; // Spinge il titolo in alto e la categoria in basso
+}
+
+.title {
+    font-family: DINPro;
+    font-weight: 700;
+    font-size: 32px;
+    color: $white;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.subtitle {
+    font-family: DINPro;
+    font-weight: 400;
+    font-size: 12px;
+    color: $white;
+    margin-bottom: auto; // Spinge la categoria in basso
+    text-align: left;
+}
+
+.categoria {
+    font-family: DINPro;
+    font-weight: 500;
+    font-size: 16px;
+    color: $white;
+    padding-top: 5px;
+    width: 100%;
+    text-align: left;
+}

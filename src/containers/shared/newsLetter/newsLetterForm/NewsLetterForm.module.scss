@@ -1,0 +1,33 @@
+.form {
+    display: flex;
+    width: 500px; // Imposta una larghezza fissa
+    height: 50px; // Altezza per l'input e il bottone
+    border-radius: 5px;
+    overflow: hidden; // Evita bordi strani
+  }
+  
+  .input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: #e5e5e5;
+    color: #333;
+    outline: none; // Rimuove il bordo blu sui browser
+  }
+  
+  .button {
+    width: 150px;
+    background-color: #00c853;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  
+    &:hover {
+      background-color: #00a73e;
+    }
+  }
+  

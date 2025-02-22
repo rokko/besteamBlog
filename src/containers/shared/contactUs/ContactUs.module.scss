@@ -1,0 +1,41 @@
+.contactContainer {
+    text-align: center;
+    padding: 20px;
+    color: white; // Testo bianco per contrastare con lo sfondo nero
+    margin-top:63px;
+    margin-bottom:180px
+  }
+  
+  .contactText {
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px; // Distanza tra gli elementi
+  }
+  
+  .icon {
+    font-size: 18px;
+    color: white; // Colore bianco per l'icona
+  }
+  
+  .email {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  
+    &:hover {
+      color: #00aaff; // Cambia colore al passaggio del mouse
+    }
+  }
+  
+  .underline {
+    width: 100%;
+    max-width: 300px;
+    height: 2px;
+    background-color: white;
+    margin: 10px auto;
+  }
+  

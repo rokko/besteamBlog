@@ -1,0 +1,21 @@
+@import '../../../styles/colors';
+
+.testoNewsletter {
+    font-family: DINPro;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51.52px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: $testoVerde;
+
+}
+
+.newsLetterContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    margin-top: 180px;
+}
