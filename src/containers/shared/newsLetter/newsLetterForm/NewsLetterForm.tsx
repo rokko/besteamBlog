@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./NewsletterForm.module.scss";
+import styles from "./Newsletterform.module.scss";
 
 const NewsletterForm: React.FC = () => {
   const [email, setEmail] = useState("");
