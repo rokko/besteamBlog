@@ -1,4 +1,4 @@
-import styles from './NewsLetter.module.scss'
+import styles from './Newsletter.module.scss'
 import NewsletterForm from './newsLetterForm/NewsLetterForm'
 const NewsLetter = () => {
     return(
