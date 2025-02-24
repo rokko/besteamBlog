@@ -1,10 +1,6 @@
-import React from 'react'
 import CardArticolo from '../shared/cardArticolo/CardArticolo'
-import Header from '../shared/header/Header'
 import Slider from '../shared/slider/Slider'
-import NewsLetter from '../shared/newsLetter/NewsLetter'
-import Footer from '../shared/footer/Footer'
-import ContactUs from '../shared/contactUs/ContactUs'
+
 import { Link } from 'react-router-dom'
 
 

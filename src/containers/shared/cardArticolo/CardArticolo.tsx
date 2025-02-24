@@ -12,7 +12,7 @@ interface ArticleCardProps {
 }
 
 const CardArticolo: React.FC<ArticleCardProps> = ({ title, description, image, link, autore, dataPost, categoria }) => {
-  
+  console.log(description, image, link)
     return (
         <div className={styles.card}>
           <div className={styles.cardContent}>

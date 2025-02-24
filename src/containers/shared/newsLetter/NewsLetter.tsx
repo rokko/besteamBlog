@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './NewsLetter.module.scss'
 import NewsletterForm from './newsLetterForm/NewsLetterForm'
 const NewsLetter = () => {
